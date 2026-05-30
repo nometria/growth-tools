@@ -5,7 +5,7 @@ Posts rich Block Kit messages to a Slack webhook when a lead scores above
 the configured hot_threshold.  Uses only urllib (no extra dependencies).
 
 Configuration:
-    SLACK_WEBHOOK_URL   — Slack Incoming Webhook URL (required for notifications)
+    SLACK_WEBHOOK_URL   - Slack Incoming Webhook URL (required for notifications)
 """
 
 import json
@@ -53,7 +53,7 @@ def _build_slack_blocks(lead: Dict[str, Any], webhook_url: str) -> Dict[str, Any
             "type": "header",
             "text": {
                 "type": "plain_text",
-                "text": f"{tier_emoji} Hot Lead Detected — Score {score}",
+                "text": f"{tier_emoji} Hot Lead Detected - Score {score}",
                 "emoji": True,
             },
         },
@@ -118,7 +118,7 @@ def send_slack_notification(
     """
     webhook = webhook_url or _get_webhook_url()
     if not webhook:
-        logger.debug("Slack notification skipped — no SLACK_WEBHOOK_URL configured")
+        logger.debug("Slack notification skipped - no SLACK_WEBHOOK_URL configured")
         return False
 
     payload = _build_slack_blocks(lead, webhook)

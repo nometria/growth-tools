@@ -14,7 +14,7 @@
       "pain_match": "schema isolation, auth complexity",
       "intent": "actively evaluating solutions"
     },
-    "outreach_draft": "Hey! Saw your post about multi-tenant Supabase — we built a schema-per-tenant migration tool that handles exactly this. It sets up isolated app_{id} schemas with RLS and Supabase auth wired in. Happy to share a quick demo if that's useful.",
+    "outreach_draft": "Hey! Saw your post about multi-tenant Supabase - we built a schema-per-tenant migration tool that handles exactly this. It sets up isolated app_{id} schemas with RLS and Supabase auth wired in. Happy to share a quick demo if that's useful.",
     "captured_at": "2026-03-22T09:14:32Z",
     "status": "new"
   },
@@ -33,7 +33,7 @@
       "pain_match": "migration complexity, user data",
       "intent": "looking for migration tooling"
     },
-    "outreach_draft": "We help teams migrate from Firebase to Supabase — auth users, Firestore collections, and storage. Done it for teams with 100k+ users. Worth a call?",
+    "outreach_draft": "We help teams migrate from Firebase to Supabase - auth users, Firestore collections, and storage. Done it for teams with 100k+ users. Worth a call?",
     "captured_at": "2026-03-22T10:02:11Z",
     "status": "new"
   },
@@ -71,7 +71,7 @@
       "pain_match": "production security, AI code quality",
       "intent": "actively searching for a specific tool"
     },
-    "outreach_draft": "We built a free static scanner specifically for AI-generated code (Bolt, Lovable, v0). Catches hardcoded secrets, SQL injection, CORS misconfigs — zero dependencies, runs in CI. Check it out at github.com/ownmy-app/security-scanner",
+    "outreach_draft": "We built a free static scanner specifically for AI-generated code (Bolt, Lovable, v0). Catches hardcoded secrets, SQL injection, CORS misconfigs - zero dependencies, runs in CI. Check it out at github.com/ownmy-app/security-scanner",
     "captured_at": "2026-03-22T14:30:55Z",
     "status": "new"
   }

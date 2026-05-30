@@ -2,7 +2,7 @@
 LinkedIn engagement bot.
 
 Searches LinkedIn for posts matching configurable keywords, generates
-contextually relevant comments via GPT, and posts them — skipping
+contextually relevant comments via GPT, and posts them - skipping
 irrelevant posts (hiring, certifications, non-English, etc.).
 
 Deduplicates via MD5 hash so it never comments on the same post twice.

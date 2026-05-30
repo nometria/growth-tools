@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Runner: Discord bot (persistent — runs until interrupted).
+Runner: Discord bot (persistent - runs until interrupted).
 
 Usage:
     python run_discord.py

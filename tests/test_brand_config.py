@@ -1,4 +1,4 @@
-"""Tests for growth-tools brand configuration — no external APIs required."""
+"""Tests for growth-tools brand configuration - no external APIs required."""
 import sys
 import os
 import pytest
@@ -31,7 +31,7 @@ def test_icp_pain_reads_from_env(monkeypatch):
 
 
 def test_no_hardcoded_brand_names_in_source():
-    """Ensure OwnMyApp or Nometria don't appear in llm.py prompts."""
+    """Ensure Nometria don't appear in llm.py prompts."""
     llm_path = os.path.join(
         os.path.dirname(__file__), "..", "src", "growth_tools", "core", "llm.py"
     )
@@ -39,4 +39,4 @@ def test_no_hardcoded_brand_names_in_source():
         content = f.read()
 
     # These specific brand names should not be hardcoded in prompts
-    assert "OwnMyApp" not in content, "OwnMyApp brand name found — use BRAND_NAME env var instead"
+    assert "Nometria" not in content, "Nometria brand name found - use BRAND_NAME env var instead"

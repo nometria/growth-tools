@@ -23,7 +23,7 @@ from typing import Any, Dict, List, Optional
 
 logger = logging.getLogger(__name__)
 
-# Optional dependency — stdlib yaml not available, so we try PyYAML
+# Optional dependency - stdlib yaml not available, so we try PyYAML
 try:
     import yaml  # type: ignore[import-untyped]
     _YAML_AVAILABLE = True

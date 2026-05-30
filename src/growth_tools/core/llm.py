@@ -2,9 +2,9 @@
 Provider-agnostic LLM layer with fallbacks, retries, and safe JSON parsing.
 
 Supported providers (set via LLM_PROVIDER env var):
-  "openai"    — OpenAI API (default)
-  "anthropic" — Anthropic Claude API
-  "litellm"   — LiteLLM proxy (100+ providers)
+  "openai"    - OpenAI API (default)
+  "anthropic" - Anthropic Claude API
+  "litellm"   - LiteLLM proxy (100+ providers)
 
 Model is read from LLM_MODEL env var; each provider has a sensible default.
 

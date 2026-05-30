@@ -2,11 +2,11 @@
 Unified CLI for growth-tools.
 
 Usage:
-    growth-tools reddit   — Monitor subreddits for leads
-    growth-tools api      — Start the REST API server
-    growth-tools discord  — Run the Discord bot
-    growth-tools scan     — Scan GitHub for competitor SDK repos
-    growth-tools          — Show help
+    growth-tools reddit   - Monitor subreddits for leads
+    growth-tools api      - Start the REST API server
+    growth-tools discord  - Run the Discord bot
+    growth-tools scan     - Scan GitHub for competitor SDK repos
+    growth-tools          - Show help
 """
 import argparse
 import sys
